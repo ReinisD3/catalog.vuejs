@@ -1,5 +1,5 @@
 <template>
-<button @click="onClick">{{ name}}</button>
+<button @click="onClick">{{ name }}</button>
 </template>
 
 <script lang="ts">
@@ -18,11 +18,12 @@ export default class Button extends Vue {
 
 <style>
 button {
-  width: 250px;
+  width: 150px;
   margin: 15px;
   color: Black;
-  border-radius: 10px;
-  background-color: burlywood;
+  border-radius: 3px;
+  background-color: darkgoldenrod;
+  text-transform: capitalize;
 
 }
 </style>
